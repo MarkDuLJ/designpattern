@@ -10,6 +10,8 @@
 		4D10FA322A33C441000D7670 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D10FA312A33C441000D7670 /* main.cpp */; };
 		4D3DA81D2A448CDA0032251D /* factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DA81C2A448CDA0032251D /* factory.cpp */; };
 		4D3DA81F2A44B58A0032251D /* abstractfactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DA81E2A44B58A0032251D /* abstractfactory.cpp */; };
+		4D5E1E9C2A461E0600801C9A /* prototype.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E1E9B2A461DFE00801C9A /* prototype.cpp */; };
+		4D5E1E9E2A49C6AC00801C9A /* singleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E1E9D2A49C6AC00801C9A /* singleton.cpp */; };
 		4D7646C12A3C9CED007A3F4F /* lambda_func.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D7646C02A3C9CED007A3F4F /* lambda_func.cpp */; };
 		4D7646C32A3CD044007A3F4F /* constrain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D7646C22A3CD044007A3F4F /* constrain.cpp */; };
 		4D7646C52A3CE764007A3F4F /* optional_class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D7646C42A3CE764007A3F4F /* optional_class.cpp */; };
@@ -49,6 +51,8 @@
 		4D10FA312A33C441000D7670 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4D3DA81C2A448CDA0032251D /* factory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = factory.cpp; sourceTree = "<group>"; };
 		4D3DA81E2A44B58A0032251D /* abstractfactory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = abstractfactory.cpp; sourceTree = "<group>"; };
+		4D5E1E9B2A461DFE00801C9A /* prototype.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = prototype.cpp; sourceTree = "<group>"; };
+		4D5E1E9D2A49C6AC00801C9A /* singleton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = singleton.cpp; sourceTree = "<group>"; };
 		4D7646C02A3C9CED007A3F4F /* lambda_func.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lambda_func.cpp; sourceTree = "<group>"; };
 		4D7646C22A3CD044007A3F4F /* constrain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = constrain.cpp; sourceTree = "<group>"; };
 		4D7646C42A3CE764007A3F4F /* optional_class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = optional_class.cpp; sourceTree = "<group>"; };
@@ -106,7 +110,8 @@
 			children = (
 				4DD77F092A45D821004FB6CF /* ccreational pattern */,
 				4D10FA312A33C441000D7670 /* main.cpp */,
-				4DD77F0A2A45D859004FB6CF /* builder.cpp */,
+				4D5E1E9B2A461DFE00801C9A /* prototype.cpp */,
+				4D5E1E9D2A49C6AC00801C9A /* singleton.cpp */,
 				4DDF56B42A43315D003A35DD /* fs.cpp */,
 			);
 			path = design_patterns;
@@ -115,6 +120,7 @@
 		4DD77F092A45D821004FB6CF /* ccreational pattern */ = {
 			isa = PBXGroup;
 			children = (
+				4DD77F0A2A45D859004FB6CF /* builder.cpp */,
 				4DD77F0C2A45D8DF004FB6CF /* absfactory.cpp */,
 				4D3DA81C2A448CDA0032251D /* factory.cpp */,
 				4D3DA81E2A44B58A0032251D /* abstractfactory.cpp */,
@@ -223,6 +229,8 @@
 				4DD77F0B2A45D859004FB6CF /* builder.cpp in Sources */,
 				4DD77F0D2A45D8DF004FB6CF /* absfactory.cpp in Sources */,
 				4D3DA81D2A448CDA0032251D /* factory.cpp in Sources */,
+				4D5E1E9C2A461E0600801C9A /* prototype.cpp in Sources */,
+				4D5E1E9E2A49C6AC00801C9A /* singleton.cpp in Sources */,
 				4DE845952A3792B200434263 /* loop.cpp in Sources */,
 				4D7B3F632A38F3AA00407E3A /* function.cpp in Sources */,
 				4DDF56B52A43315D003A35DD /* fs.cpp in Sources */,
