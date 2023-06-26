@@ -110,8 +110,6 @@
 			children = (
 				4DD77F092A45D821004FB6CF /* ccreational pattern */,
 				4D10FA312A33C441000D7670 /* main.cpp */,
-				4D5E1E9B2A461DFE00801C9A /* prototype.cpp */,
-				4D5E1E9D2A49C6AC00801C9A /* singleton.cpp */,
 				4DDF56B42A43315D003A35DD /* fs.cpp */,
 			);
 			path = design_patterns;
@@ -123,6 +121,8 @@
 				4DD77F0A2A45D859004FB6CF /* builder.cpp */,
 				4DD77F0C2A45D8DF004FB6CF /* absfactory.cpp */,
 				4D3DA81C2A448CDA0032251D /* factory.cpp */,
+				4D5E1E9B2A461DFE00801C9A /* prototype.cpp */,
+				4D5E1E9D2A49C6AC00801C9A /* singleton.cpp */,
 				4D3DA81E2A44B58A0032251D /* abstractfactory.cpp */,
 			);
 			path = "ccreational pattern";
